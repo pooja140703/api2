@@ -9,7 +9,7 @@ import io
 
 app = Flask(__name__)
 
-model = tf.keras.models.load_model("cnn_pose_classifier.h5")
+model = tf.keras.models.load_model("cnn_pose_classifier.keras")
 class_labels = [
     "adho mukh svanasana", "ashtanga namaskara", "ashwa sanchalanasana",
     "bhujangasana", "hasta utthanasana", "kumbhakasana",
